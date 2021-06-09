@@ -1,5 +1,5 @@
 <div class="header">
-  <h2>$upreme</h2>
+  <h2><img src="assests/images/Unknown.png" alt="" id="logo">$upreme</h2>
 </div>
 <div class="shopping-cart">
     <div class="title">
@@ -9,8 +9,7 @@
 
     <div class="item" *ngFor="let i of selection" >
       <div class="buttons">
-        <span class="btn"></span>
-        <span class="like-btn" (click)="like(i)"[class.favorite]="i.favorite"></span>
+        <span class="like-btn" (click)="like(i)"[class.favorite]="i.favorite" id="like-btn"></span>
       </div>
       <div class="image">
         <img [src]="i.image" id="WhiteShirt" alt="" />

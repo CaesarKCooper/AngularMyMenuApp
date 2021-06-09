@@ -9,23 +9,28 @@ p {
     display: inline-block;
 }
 
+h2 {
+  font-size: 39px;
+}
+
 .header{
     margin-right: -0.1%;
     text-align: center;
     background-color: red;
-    font-size: smaller;
+    margin-right: -30px;
 }
 
 footer {
     margin-left: -50%;
-    margin-right: -46.1%;
+    margin-right: -50%;
     margin-top: 21.6%;
     text-align: center;
     background-color: grey;
+    height: 22.2%;
 }
 
 footer p{
-    margin-top: 10px;
+  margin-top: 5px;
     padding: -40px;
 }
 
@@ -63,7 +68,6 @@ body {
   background: #FFFFFF;
   box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
   border-radius: 6px;
-
   display: flex;
   flex-direction: column;
 }
@@ -92,7 +96,7 @@ body {
 .buttons {
   position: relative;
   padding-top: 30px;
-  margin-right: 85px;
+  margin-right: 140px;
 }
 
 

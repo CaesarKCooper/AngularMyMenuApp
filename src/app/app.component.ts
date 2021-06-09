@@ -76,6 +76,11 @@ export class AppComponent {
   }
 
   like(selection: any){
-    selection.favorite = true
+    if(selection.favorite == false){
+      selection.favorite = true
+    } else if(selection.favorite == true){
+      selection.favorite = false
+    }
+      
   }
 }
